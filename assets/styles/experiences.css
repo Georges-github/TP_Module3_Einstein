@@ -1,6 +1,6 @@
 /* Reset */
 
-h1 , p , figure , ul , li  {
+h1 , h3 , p , figure , ul , li  {
     margin: 0;
     padding: 0;
 }
@@ -48,17 +48,12 @@ nav > div > a {
 
 
 header {
-    background-color: rgb(13,28,69);
-
     color: white;
 
     display: flex;
     justify-content: center;
 
     font-size: 1.5em;
-
-    padding-top: 50px;
-    padding-bottom: 50px;
 
     width: 70%;
 }
@@ -71,15 +66,6 @@ header > section > p > span {
     color: rgb(160,176,249);
 }
 
-#header_section_1 {
-    width: 50%;
-
-    margin-right: 20px;
-}
-
-#header_section_2 {
-    margin-left: 20px;
-}
 
 
 main {
@@ -93,79 +79,74 @@ main {
 
 main > section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 60px;
-}
-
-main > section > div > img {
-    margin: 5px;
-}
-
-#div_photos_1 {
-    width: 100%;
-
-    display: flex;
-    justify-content: space-evenly;
-
-    border: solid 1px white;
-
-    display: flex;
-    justify-content: end;
-    align-items: space-beetwen;
-    border: solid 1px black;
-}
-
-#div_photos_2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: space-beetwen;
-}
-
-#div_photos_2 > img {
-    width: 100%;
-}
-
-main {
-    padding-top: 60px;
-
-    background-color: white;
-
-    color: black;
-
-    height: 800px;
-}
-
-main > section {
-    margin-right: 20px;
-}
-
-main > aside {
-    font-size: 1.4em;
-
-    /*display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;*/
-
-    text-align: center;
-
-    padding-right: 60px;
-    padding-top: -10px;
-
-    overflow-y: scroll;
+    flex-wrap: wrap;
 
     border: solid 2px red;
 }
 
-main > aside > img{
-    margin-bottom: 30px;
+main > section > article {
+    margin: 5px;
+    position: relative;
 }
 
-main > aside > p {
-    text-align: left;
+.div_texte {
+    opacity: 0;
+
+    position: absolute;
+    top: 5px;
+    left: 0px;  
+
+    width: 280px;
+    height: 180px;
+
+    border: ridge 15px green;
+
+    background-color: aqua;
+
+    color: white;
+
+    font-size: 1em;
+
+    overflow-y: scroll;
 }
+
+.div_texte:hover {
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+
+    /*top: -10px;
+    left: -30px;*/
+
+   /* width: 320px;
+    height: 200px;*/
+    transform: scale(1.2);
+
+    z-index: 1;
+}
+
+main > section > article > h3 {
+    text-align: center;
+
+    color: aqua;
+
+    border: solid 1px aqua;
+}
+
+.titre_article {
+    text-align: center;
+    background-color: aliceblue;
+    color: aqua;
+}
+
+main > section >  article > img {
+    width: 280px;
+    height: 180px;
+    border: solid 1px white;
+}
+
+
+
 
 footer {
     display: flex;
