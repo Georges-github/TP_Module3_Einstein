@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../Cours Openclassrooms sur ReactJS"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../Exercice pour le 02122024"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cours_html"
+	}
+}
