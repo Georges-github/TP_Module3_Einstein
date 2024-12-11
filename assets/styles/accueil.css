@@ -159,12 +159,13 @@ main > aside {
     border: solid 2px red;
 }
 
-main > aside > img{
+main > aside > img {
     margin-bottom: 30px;
 }
 
 main > aside > p {
     text-align: left;
+    margin-bottom: 15px;
 }
 
 footer {
