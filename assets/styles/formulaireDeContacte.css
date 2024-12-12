@@ -55,7 +55,7 @@ nav > div > a {
 
 
 main {
-    background-color: violet;
+    background-color: #5559a2;
 
     width: 100%;
     height: 100%;
@@ -67,33 +67,68 @@ main {
     align-items: center;
 }
 
-.formulaireDeContacte > section > div {
-    border-radius: 0px 0px 10px 10px;
+.formulaireDeContacte > section {
+    width: 500px;
+    height: 300px;
+
+    /* border: solid 1px red; */
 }
 
-
 .formulaireDeContacte > section > header {
-    background-color: darkblue;
+    background-color: #092674;
 
     height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 10px;
+    padding-right: 10px;
 
     border-radius: 10px 10px 0px 0px;
 }
 
-
-.formulaireDeContacte > section > div {
-    background-color: black;
-
-    color: white;
-
-    height: 200px;
-    width: 200px;
-
+.divHamburger {
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+.divPoints {
+    display: flex;
+    align-items: center;
+}
+
+.pastille {
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.menuHamburger {
+    width: 5px;
+    height: 5px;
+    background-color:darkgray;
+    border-radius: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 
 .formulaireDeContacte > section > div {
+    background-color: #0d1c45;
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+
+    /* width: 100%; */
+    height: 300px;
+
+    border-radius: 0px 0px 10px 10px;
 }
 
 .formulaireDeContacte > section > div > section {
@@ -102,8 +137,53 @@ main {
 }
 
 .formulaireDeContacte > section > div > aside {
+    border: solid 1px red;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formulaireDeContacte > section > div > aside > form {
     width: 100%;
     border: solid 2px red;
+    color:gray;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    padding-top: 30px;
+}
+
+.formulaireDeContacte > section > div > aside > form input {
+    border: none;
+    border-bottom: solid 1px gray;
+    background-color: #0d1c45;
+
+    color:  lightgray;
+
+    margin-bottom: 20px;
+}
+
+.formulaireDeContacte > section > div > section {
+    padding: 30px 10px 10px 10px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactezNous {
+    font-size: 2em;
+    border: solid 1px red;
+}
+
+.contactInfo {
+    border: solid 1px red;
+    font-size: .5em;
 }
 
 
@@ -113,7 +193,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     
-    width: 100%;
+    width:  100%;
     height: 100px;
 
     background-color: rgb(13,28,69);

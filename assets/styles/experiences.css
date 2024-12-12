@@ -60,9 +60,9 @@ header {
 
     font-size: 1.5em;
 
-    width: 100%;
+    width: 100vw;
 
-    height: 290px;
+    height: auto;
 }
 
 header > h1 {
@@ -72,6 +72,7 @@ header > h1 {
 header > section > p > span {
     color: rgb(160,176,249);
 }
+
 
 
 main {
@@ -121,14 +122,14 @@ main {
 
     position: absolute;
     top: 5px;
-    left: 0px;  
+    left: -25px;  
 
-    width: 280px;
+    width: 330px;
     height: 180px;
 
-    border: ridge 10px rgb(43, 153, 226);
+    border: ridge 10px #4a5197;
 
-    background-color: rgb(43, 153, 226);
+    background-color:#4a5197;
 
     color:white;
 
@@ -167,9 +168,13 @@ main {
 .titre_article {
     text-align: center;
 
-    color: rgb(43, 153, 226);
+    font-weight: bold;
+
+    color:cornflowerblue;
 
     background-color: white;
+
+    border: solid 1px cornflowerblue;
 }
 
 .galerie >  article > img {
