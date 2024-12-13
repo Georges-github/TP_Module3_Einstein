@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/formulaireDeContacte.css">
-    <title>Les expériences de pensée d'Albert Einstein - Contacte</title>
+    <link rel="stylesheet" href="./assets/styles/formulaireDeContact.css">
+    <title>Les expériences de pensée d'Albert Einstein - Contact</title>
 </head>
 <body>
 
     <nav>
 
-        <img src="./assets/images/logo1.png" alt="Vers la page d'accueil." width="50">
+        <a href="./accueil.html">
+            <img src="./assets/images/logo1.png" alt="Vers la page d'accueil." width="50">
+        </a>
 
         <div>
             <a href="./accueil.html">Accueil</a>
             
             <a href="./experiences.html">Expérience</a>
             
-            <a href="./contact.html">Contact</a>
+            <a href="./formulaireDeContact.html">Contact</a>
         </div>
             
     </nav>
 
-    <main class="formulaireDeContacte">
+    <main class="formulaireDeContact">
 
         <section>
 
@@ -43,7 +45,7 @@
 
                 <section>
                     <div class="contactezNous">
-                        CONTACTEZ NOUS
+                        CONTACTEZ<br>NOUS<br><span style="text-decoration:line-through;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
                     </div>
                     <div class="contactInfo">
                         CONTACT INFO : +33 00 00 00 00  
@@ -52,15 +54,16 @@
                 
                 <aside>
                     <form action="">
-                        <label for="nom">Nom</label>
-                        <input type="text" name="nom" id="">
-                        <label for="courriel">Courriel</label>
-                        <input type="text" name="courriel" id="">
-                        <label for="contact">Contact</label>
-                        <input type="text" name="contact" id="">
-                        <label for="message">Message</label>
-                        <input type="text" name="message" id="">
-                        <button style="width: fit-content; background-color: #0d1c45; color:blueviolet; border: none; cursor: pointer;">Valider</button>
+                        <!-- <label for="nom">Nom</label> -->
+                        <input type="text" name="nom" id="" placeholder="NAME">
+                        <!-- <label for="courriel">Courriel</label> -->
+                        <input type="text" name="courriel" id="" placeholder="EMAIL">
+                        <!-- <label for="contact">Contact</label> -->
+                        <input type="text" name="contact" id="" placeholder="CONTACT">
+                        <!-- <label for="message">Message</label> -->
+                        <!-- <input type="" name="message" id="" placeholder="MESSAGE"> -->
+                        <textarea name="messsage" id="" placeholder="MESSAGE"></textarea>
+                        <button class="boutonEnvoyer">Envoyer</button>
                     </form>
                 </aside>
 
@@ -72,18 +75,17 @@
     
     <footer>
 
-        <a href="">
+        <a href="https://x.com/?lang=fr">
             <img src="./assets/images/logo-twitter-blanc.png" alt="" width="30">
         </a>
             
-        <a href="">
+        <a href="https://www.facebook.com/">
             <img src="./assets/images/FaceBook.png" alt="" width="30">
         </a>
 
-        <a href="">
+        <a href="https://www.instagram.com/">
             <span>in</span>
         </a>
-
 
     </footer>
     

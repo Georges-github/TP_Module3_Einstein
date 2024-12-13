@@ -7,7 +7,7 @@ h1 , h3 , p , figure , ul , li  {
 
 body {
     font-family: sans-serif;
-    background-color: white;
+    background-color: darkblue;
 
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ nav {
 
     height: 60px;
 
-    width: 100%;
+    width: 70vw;
 }
 
 nav > div {
@@ -47,22 +47,29 @@ nav > div > a {
 }
 
 
+
 header {
-    background: url(../images/depuis-quand-mesure-t_on-le-temps.jpg) center no-repeat;
+    /* background: url(../images/depuis-quand-mesure-t_on-le-temps-bleu.jpg) center no-repeat;
 
-    background-size: cover;
+    background-size: contain; */
 
-    color: white;
+    /* color: white; */
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
 
-    width: 100vw;
+    width: 70vw;
 
-    height: auto;
+    /* height: 397px; */
+
+    /* border: solid 1px red; */
+}
+
+header > img {
+    width: 100%;
 }
 
 header > h1 {
@@ -81,23 +88,24 @@ main {
     justify-content: center;
     align-items: center;
 
-    width: 100%;
+    background-color: white;;
+
+    width: 70vw;
 
     border: solid 1px white;
 }
 
 .titreMain {
-    display: flex;
-    justify-content: center;
+    display: flex;  
     align-items: center;
-
-    color: white;
 
     font-size: 1.7em;
 
     height: 190px;
 
-    color:rgb(43, 153, 226);
+    color:#a7b3ff;
+
+    text-align: center;
 }
 
 .galerie {
@@ -105,7 +113,9 @@ main {
     justify-content: center;
     flex-wrap: wrap;
 
-    width: 1040px;;
+    width: 1040px;
+
+    margin-bottom: 150px;
 
     /* border: solid 2px red; */
 }
@@ -194,7 +204,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     
-    width: 100%;
+    width: 70vw;
     height: 100px;
 
     background-color: rgb(13,28,69);

@@ -7,7 +7,7 @@ h1 , h3 , p , figure , ul , li  {
 
 body {
     font-family: sans-serif;
-    background-color: white;
+    background-color: darkblue;
 
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@ nav {
 
     height: 60px;
 
-    width: 100%;
+    width: 70vw;
 }
 
 nav > div {
@@ -54,27 +54,25 @@ nav > div > a {
 
 
 
-main {
+.formulaireDeContact {
     background-color: #5559a2;
 
-    width: 100%;
+    width: 70vw;
     height: 100%;
-}
 
-.formulaireDeContacte {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.formulaireDeContacte > section {
-    width: 500px;
-    height: 300px;
+.formulaireDeContact > section {
+    /* width: 500px; */
+    /* height: 300px; */
 
     /* border: solid 1px red; */
 }
 
-.formulaireDeContacte > section > header {
+.formulaireDeContact > section > header {
     background-color: #092674;
 
     height: 50px;
@@ -83,10 +81,11 @@ main {
     align-items: center;
     justify-content: space-between;
 
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     border-radius: 10px 10px 0px 0px;
+
 }
 
 .divHamburger {
@@ -117,10 +116,10 @@ main {
     margin-left: 2px;
 }
 
-.formulaireDeContacte > section > div {
+.formulaireDeContact > section > div {
     background-color: #0d1c45;
 
-    color: white;
+    /* color: white; */
 
     display: flex;
     justify-content: center;
@@ -129,44 +128,62 @@ main {
     height: 300px;
 
     border-radius: 0px 0px 10px 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 25px 20px -20px;
+
+    padding: 50px;
 }
 
-.formulaireDeContacte > section > div > section {
-    border: solid 2px red;
+.formulaireDeContact > section > div > section {
+    /* border: solid 2px red; */
     width: 100%;
+
+    margin-right: 80px;
 }
 
-.formulaireDeContacte > section > div > aside {
-    border: solid 1px red;
+.formulaireDeContact > section > div > aside {
+    /* border: solid 1px red; */
     width: 100%;
-    padding-left: 20px;
+    padding-left: 40px;
     padding-right: 20px;
 }
 
-.formulaireDeContacte > section > div > aside > form {
+.formulaireDeContact > section > div > aside > form {
     width: 100%;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     color:gray;
 
     display: flex;
     flex-direction: column;
     justify-content: start;
 
-    padding-top: 30px;
+    font-size: 1.1em;
+
+    font-weight: lighter;
+
+    /* padding-top: 30px; */
 }
 
-.formulaireDeContacte > section > div > aside > form input {
+.formulaireDeContact > section > div > aside > form input, textarea {
     border: none;
     border-bottom: solid 1px gray;
     background-color: #0d1c45;
 
     color:  lightgray;
 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.formulaireDeContacte > section > div > section {
-    padding: 30px 10px 10px 10px;
+.formulaireDeContact > section > div > aside > form input {
+    height: 50px;
+}
+
+.formulaireDeContact > section > div > aside > form > textarea {
+    margin-top: 40px;
+}
+
+.formulaireDeContact > section > div > section {
+    /* padding: 30px 10px 10px 10px; */
 
     color: white;
 
@@ -178,14 +195,28 @@ main {
 
 .contactezNous {
     font-size: 2em;
-    border: solid 1px red;
+    font-weight: bold;
+    /* border: solid 1px red; */
 }
 
 .contactInfo {
-    border: solid 1px red;
-    font-size: .5em;
+    /* border: solid 1px red; */
+    font-size: .7em;
+
+    color: gray;
 }
 
+.boutonEnvoyer {
+    width: fit-content;
+    background-color: #0d1c45;
+    color: #6b87ab;
+    border: none;
+    cursor: pointer;
+
+    font-size: 1.3em;
+
+    margin-top: 10px;
+}
 
 
 footer {
@@ -193,7 +224,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     
-    width:  100%;
+    width:  70vw;
     height: 100px;
 
     background-color: rgb(13,28,69);
