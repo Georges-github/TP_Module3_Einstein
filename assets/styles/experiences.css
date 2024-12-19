@@ -1,5 +1,4 @@
 /* Reset */
-
 h1 , h3 , p , figure , ul , li  {
     margin: 0;
     padding: 0;
@@ -17,12 +16,10 @@ body {
 ul , li {
     list-style: none;
 }
-
 /* Fin reset */
 
 
 /* Mise en page. */
-
 nav {
     background-color: white;
 
@@ -49,23 +46,11 @@ nav > div > a {
 
 
 header {
-    /* background: url(../images/depuis-quand-mesure-t_on-le-temps-bleu.jpg) center no-repeat;
-
-    background-size: contain; */
-
-    /* color: white; */
-
     display: flex;
     justify-content: center;
     align-items: center;
 
-    /* font-size: 1.5em; */
-
     width: 70vw;
-
-    /* height: 397px; */
-
-    /* border: solid 1px red; */
 }
 
 header > img {
@@ -83,27 +68,27 @@ header > section > p > span {
 
 
 main {
+    background-color: white;;
+
+    border: solid 1px white;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    background-color: white;;
-
     width: 70vw;
-
-    border: solid 1px white;
 }
 
 .titreMain {
+    color:#a7b3ff;
+
     display: flex;  
     align-items: center;
 
     font-size: 1.7em;
 
     height: 190px;
-
-    color:#a7b3ff;
 
     text-align: center;
 }
@@ -116,18 +101,23 @@ main {
     width: 1040px;
 
     margin-bottom: 150px;
-
-    /* border: solid 2px red; */
 }
 
 .galerie > article {
-    margin: 5px;
-    position: relative;
-
     color:rgb(43, 153, 226);
+
+    margin: 5px;
+
+    position: relative;
 }
 
 .div_explication {
+    background-color:#4a5197;
+
+    color:white;
+
+    border: ridge 10px #4a5197;
+
     opacity: 0;
 
     position: absolute;
@@ -136,12 +126,6 @@ main {
 
     width: 330px;
     height: 180px;
-
-    border: ridge 10px #4a5197;
-
-    background-color:#4a5197;
-
-    color:white;
 
     font-size: 1em;
 
@@ -153,11 +137,6 @@ main {
     opacity: 1;
     transition: opacity .3s ease-in-out;
 
-    /*top: -10px;
-    left: -30px;*/
-
-   /* width: 320px;
-    height: 200px;*/
     transform: scale(1.3);
 
     z-index: 1;
@@ -176,43 +155,43 @@ main {
 }
 
 .titre_article {
-    text-align: center;
-
-    font-weight: bold;
+    background-color: white;
 
     color:cornflowerblue;
 
-    background-color: white;
-
     border: solid 1px cornflowerblue;
+
+    text-align: center;
+
+    font-weight: bold;
 }
 
 .galerie >  article > img {
-    width: 280px;
-    height: 180px;
-
     border-left: solid 1px lightblue;
     border-bottom: solid 1px lightblue;
     border-right: solid 1px lightblue;
+
+    width: 280px;
+    height: 180px;
 }
 
 
 
 
 footer {
+    background-color: rgb(13,28,69);
+
     display: flex;
     align-items: center;
     justify-content: space-around;
     
     width: 70vw;
     height: 100px;
-
-    background-color: rgb(13,28,69);
 }
 
 footer a > img , footer a > span {
-    border-radius: 30px;
     border: solid 2px lightgray;
+    border-radius: 30px;
 }
 
 footer > a > span {

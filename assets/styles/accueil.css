@@ -1,28 +1,26 @@
 /* Reset */
-
 h1 , p , figure , ul , li  {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: sans-serif;
     background-color:darkblue;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    font-family: sans-serif;
 }
 
 ul , li {
     list-style: none;
 }
-
 /* Fin reset */
 
 
 /* Mise en page. */
-
 nav {
     background-color: white;
 
@@ -47,20 +45,21 @@ nav > div > a {
 }
 
 
+
 header {
     background-color: rgb(13,28,69);
 
     color: white;
 
+    font-size: 1.5em;
+
+    width: 70vw;
+
     display: flex;
     justify-content: center;
 
-    font-size: 1.5em;
-
     padding-top: 50px;
     padding-bottom: 50px;
-
-    width: 70vw;
 }
 
 header > section > h1 {
@@ -82,21 +81,27 @@ header > section > p > span {
 }
 
 
+
 main {
-    display: flex;
-    justify-content: center;
+    background-color: white;
+
+    color: black;
 
     width: 70vw;
 
-    /* border: solid 1px white; */
+    height: 800px;
+    display: flex;
+    justify-content: center;
+
+    padding-top: 60px;
 }
 
 main > section {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     padding-left: 60px;
-    /* margin-right: 20px; */
 }
 
 main > section > div > img {
@@ -108,7 +113,6 @@ main > section > div > img {
 
     display: flex;
     justify-content: center;
-    /* border: solid 1px black; */
 }
 
 #div_photos_2 {
@@ -117,26 +121,10 @@ main > section > div > img {
     display: flex;
     flex-direction: column;
     align-items: space-beetwen;
-    /* border: solid 1px black; */
-}
-
-main {
-    padding-top: 60px;
-
-    background-color: white;
-
-    color: black;
-
-    height: 800px;
 }
 
 main > aside {
     font-size: 1.4em;
-
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
 
     text-align: center;
 
@@ -145,8 +133,6 @@ main > aside {
     padding-top: -10px;
 
     overflow-y: scroll;
-
-    /* border: solid 2px red; */
 }
 
 main > aside > img {
@@ -158,15 +144,17 @@ main > aside > p {
     margin-bottom: 15px;
 }
 
+
+
 footer {
+    background-color: rgb(13,28,69);
+
     display: flex;
     align-items: center;
     justify-content: space-around;
     
     width: 70vw;
     height: 100px;
-
-    background-color: rgb(13,28,69);
 }
 
 footer a > img , footer a > span {

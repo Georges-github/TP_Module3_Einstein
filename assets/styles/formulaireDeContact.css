@@ -1,5 +1,4 @@
 /* Reset */
-
 h1 , h3 , p , figure , ul , li  {
     margin: 0;
     padding: 0;
@@ -17,11 +16,11 @@ body {
 ul , li {
     list-style: none;
 }
-
 /* Fin reset */
 
-/* Mise en page. */
 
+
+/* Mise en page. */
 body {
     height: 100vh;
     width: 100vw;
@@ -54,22 +53,16 @@ nav > div > a {
 
 
 
+
 .formulaireDeContact {
     background-color: #5559a2;
-
-    width: 70vw;
-    height: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.formulaireDeContact > section {
-    /* width: 500px; */
-    /* height: 300px; */
-
-    /* border: solid 1px red; */
+    width: 70vw;
+    height: 100%;
 }
 
 .formulaireDeContact > section > header {
@@ -85,7 +78,6 @@ nav > div > a {
     padding-right: 20px;
 
     border-radius: 10px 10px 0px 0px;
-
 }
 
 .divHamburger {
@@ -99,32 +91,33 @@ nav > div > a {
 }
 
 .pastille {
+    background-color: aqua;
+
     width: 10px;
     height: 10px;
-    background-color: aqua;
+
     border-radius: 10px;
     margin-right: 2px;
     margin-left: 2px;
 }
 
 .menuHamburger {
-    width: 5px;
-    height: 5px;
     background-color:darkgray;
+
     border-radius: 10px;
     margin-right: 2px;
     margin-left: 2px;
+
+    width: 5px;
+    height: 5px;
 }
 
 .formulaireDeContact > section > div {
     background-color: #0d1c45;
 
-    /* color: white; */
-
     display: flex;
     justify-content: center;
 
-    /* width: 100%; */
     height: 300px;
 
     border-radius: 0px 0px 10px 10px;
@@ -135,23 +128,22 @@ nav > div > a {
 }
 
 .formulaireDeContact > section > div > section {
-    /* border: solid 2px red; */
     width: 100%;
 
     margin-right: 80px;
 }
 
 .formulaireDeContact > section > div > aside {
-    /* border: solid 1px red; */
     width: 100%;
+
     padding-left: 40px;
     padding-right: 20px;
 }
 
 .formulaireDeContact > section > div > aside > form {
-    width: 100%;
-    /* border: solid 2px red; */
     color:gray;
+
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -160,16 +152,14 @@ nav > div > a {
     font-size: 1.1em;
 
     font-weight: lighter;
-
-    /* padding-top: 30px; */
 }
 
 .formulaireDeContact > section > div > aside > form input, textarea {
+    color:  lightgray;
+
     border: none;
     border-bottom: solid 1px gray;
     background-color: #0d1c45;
-
-    color:  lightgray;
 
     margin-bottom: 10px;
 }
@@ -183,8 +173,6 @@ nav > div > a {
 }
 
 .formulaireDeContact > section > div > section {
-    /* padding: 30px 10px 10px 10px; */
-
     color: white;
 
     display: flex;
@@ -196,20 +184,20 @@ nav > div > a {
 .contactezNous {
     font-size: 2em;
     font-weight: bold;
-    /* border: solid 1px red; */
 }
 
 .contactInfo {
-    /* border: solid 1px red; */
-    font-size: .7em;
-
     color: gray;
+
+    font-size: .7em;
 }
 
 .boutonEnvoyer {
-    width: fit-content;
     background-color: #0d1c45;
     color: #6b87ab;
+
+    width: fit-content;
+
     border: none;
     cursor: pointer;
 
@@ -220,14 +208,14 @@ nav > div > a {
 
 
 footer {
+    background-color: rgb(13,28,69);
+
     display: flex;
     align-items: center;
     justify-content: space-around;
     
     width:  70vw;
     height: 100px;
-
-    background-color: rgb(13,28,69);
 }
 
 footer a > img , footer a > span {
